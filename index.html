@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fashion Production | Премиальный контент до 2 рабочих дней</title>
+<meta name="description" content="Профессиональный AI-Visuals продакшн. Создаем фотосессии для маркетплейсов за 48 часов. Реалистичный контент, который продает.">
+<meta name="keywords" content="AI-visuals, ai фотосессия одежды, нейросеть для брендов, контент для wildberries ai, ии фотосессии, ии, AI">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <style>
+         html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: #050505; color: white; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .accent-gradient { background: linear-gradient(90deg, #fff 0%, #666 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        /* Анимация бегущей строки */
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+            display: inline-block;
+            animation: marquee 20s linear infinite;
+        }
+
+    /* Блок с рамкой — центрируем и расширяем на ПК */
+    .ai-guarantee-block {
+        border: 2px solid #ffffff !important;
+        padding: 40px !important;
+        margin: 60px auto !important;
+        max-width: 1000px !important;
+        width: 90% !important;
+        display: block !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Таблица — заставляем её быть таблицей на ПК */
+    .ai-table { 
+        width: 100% !important; 
+        border-collapse: collapse !important; 
+        display: table !important; 
+    }
+
+    .ai-table tr { display: table-row !important; }
+    .ai-table td { 
+        display: table-cell !important; 
+        padding: 25px 20px !important; 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+        vertical-align: top !important;
+    }
+
+    .accent-cell { width: 30% !important; font-weight: 700 !important; text-transform: uppercase; color: #fff !important; font-size: 13px !important; }
+    .benefit-cell { width: 70% !important; color: #ccc !important; font-weight: 300 !important; line-height: 1.6 !important; }
+
+    /* МОБИЛКА: превращаем в список только на маленьких экранах */
+    @media (max-width: 768px) {
+        .ai-guarantee-block { padding: 20px !important; width: 95% !important; }
+        .ai-table tr { display: block !important; margin-bottom: 25px !important; }
+        .ai-table td { display: block !important; width: 100% !important; padding: 10px 0 !important; border: none !important; }
+        .accent-cell { border-bottom: 1px solid #fff !important; margin-bottom: 10px !important; }
+    }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-50 px-6 py-8">
+        <div class="max-w-7xl mx-auto flex items-center justify-between w-full">
+            <div class="text-xl font-bold tracking-tighter uppercase shrink-0" data-aos="fade-in">AI.Production</div>
+<div class="hidden md:flex flex-1 justify-center space-x-8 text-sm font-light text-gray-400">
+    <a href="#portfolio" class="hover:text-white transition">Кейсы</a>
+    <a href="#prem" class="hover:text-white transition">Преимущества</a>
+    <a href="#pricing" class="hover:text-white transition">Тарифы</a>
+    <a href="#faq" class="hover:text-white transition">FAQ</a>
+</div>
+            <div class="shrink-0">
+    <a href="https://t.me/visuals_ai" class="px-6 py-2 glass rounded-full text-[12px] md:text-sm font-medium hover:bg-white hover:text-black transition">
+        Связаться
+    </a>
+</div>
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center px-6 pt-20">
+        <div class="max-w-5xl text-center">
+            <h1 class="text-5xl md:text-8xl font-bold tracking-tight mb-8" data-aos="fade-up">
+                <span class="accent-gradient">Премиальные съемки</span> <br> без моделей и студий
+            </h1>
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed" data-aos="fade-up" data-aos-delay="100">
+                Переносим ваш бренд в интерьеры мирового уровня. Снижаем расходы на контент в 10 раз, сохраняя 100% реализма.
+            </p>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4" data-aos="fade-up" data-aos-delay="200">
+                <a href="#portfolio" class="w-full md:w-auto px-8 py-4 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition">Смотреть работы</a>
+                <a href="#pricing" class="w-full md:w-auto px-8 py-4 glass font-semibold rounded-lg hover:bg-white/10 transition">Заказать контент</a>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 px-6 bg-black">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-white text-3xl md:text-4xl font-bold mb-10 uppercase tracking-tighter" data-aos="fade-up"> О нас</h2>
+
+        <div class="border border-white/10 rounded-2xl p-8 md:p-12 bg-white/[0.02] transition-hover hover:border-white/20 duration-500">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <span class="text-[9px] uppercase tracking-[0.5em] text-gray-600 mb-4 block font-medium">Agency Profile</span>
+                    <h2 class="text-xl md:text-2xl font-light leading-snug text-white italic">
+                        «Мы — AI агентство, создающее качественный контент с вашим продуктом при помощи искусственного интеллекта без участия моделей, студий и организационной суеты».
+                    </h2>
+                </div>
+                <div class="flex flex-col justify-center">
+                    <p class="text-gray-300 font-light text-sm md:text-base leading-relaxed border-l border-white/10 pl-6">
+                        Фокусируемся на результате, отсекая всё лишнее. Наша задача — чтобы ваш клиент видел именно то, что ему нужно для покупки: чистую эстетику и детали вашего продукта.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="about" class="py-10 px-6 bg-black">
+    <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="border border-white/10 rounded-xl p-8 bg-white/[0.05] backdrop-blur-sm text-center shadow-2xl" data-aos="fade-up" data-aos-delay="100">
+                <div class="text-3xl font-bold text-white mb-2 italic">0 руб</div>
+                <div class="text-[9px] uppercase tracking-widest text-gray-400 font-medium font-sans">Студия и модели</div>
+            </div>
+
+           <div class="border border-white/10 rounded-xl p-8 bg-white/[0.05] backdrop-blur-sm text-center shadow-2xl" data-aos="fade-up">
+                <div class="text-3xl font-bold text-white mb-2 italic">До 3 дней</div>
+                <div class="text-[9px] uppercase tracking-widest text-gray-400 font-medium font-sans">Срок создания</div>
+            </div>
+
+            <div class="border border-white/10 rounded-xl p-8 bg-white/[0.05] backdrop-blur-sm text-center shadow-2xl" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-3xl font-bold text-white mb-2 italic">100%</div>
+                <div class="text-[9px] uppercase tracking-widest text-gray-400 font-medium font-sans">Реализм деталей</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="py-24 px-6 bg-black">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                <div>
+                    <h2 class="text-4xl font-bold mb-4" data-aos="fade-up">Наши кейсы</h2>
+                    <p class="text-gray-400 max-w-md">Премиальные изображения, созданные с помощью AI и цифровой обработки под задачи вашего бренда.</p>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group" data-aos="fade-up">
+                    <div class="aspect-[4/5] overflow-hidden rounded-2xl glass mb-4">
+                        <img src="img/min.jpg" class="w-full h-full object-cover transition duration-700">
+                    </div>
+                    <p class="text-sm font-medium italic">Скандинавский минимализм</p>
+                </div>
+
+                <div class="group" data-aos="fade-up">
+                    <div class="aspect-[4/5] overflow-hidden rounded-2xl glass mb-4">
+                        <img src="img/city.jpg" class="w-full h-full object-cover transition duration-700">
+                    </div>
+                    <p class="text-sm font-medium italic">Городская эстетика</p>
+                </div>
+
+                <div class="group" data-aos="fade-up">
+                    <div class="aspect-[4/5] overflow-hidden rounded-2xl glass mb-4">
+                        <img src="img/study.jpg" class="w-full h-full object-cover transition duration-700">
+                    </div>
+                    <p class="text-sm font-medium italic">Фотостудия: Мягкий свет</p>
+                </div>
+
+                <div class="group" data-aos="fade-up">
+                    <div class="aspect-[4/5] overflow-hidden rounded-2xl glass mb-4">
+                        <img src="img/loft.jpg" class="w-full h-full object-cover transition duration-700">
+                    </div>
+                    <p class="text-sm font-medium italic">Лофт</p>
+                </div>
+
+                <div class="group" data-aos="fade-up">
+                    <div class="aspect-[4/5] overflow-hidden rounded-2xl glass mb-4">
+                        <img src="img/fon.jpg" class="w-full h-full object-cover transition duration-700">
+                    </div>
+                    <p class="text-sm font-medium italic">Классическая циклорама</p>
+                </div>
+
+                <div class="group" data-aos="fade-up">
+                    <div class="aspect-[4/5] overflow-hidden rounded-2xl glass mb-4">
+                        <img src="img/nat.jpg" class="w-full h-full object-cover transition duration-700">
+                    </div>
+                    <p class="text-sm font-medium italic">Естественная локация</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-[#0a0a0a]">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center text-white" data-aos="fade-up">Как это работает?</h2>
+            
+            <div class="space-y-16">
+                <div class="grid grid-cols-2 gap-2 items-center" data-aos="fade-up">
+                    <div class="rounded-xl overflow-hidden border border-white/10">
+                        <img src="img/before1.jpg" class="w-full h-auto opacity-70" alt="До">
+                        <div class="bg-gray-800 p-2 text-center text-[10px] uppercase">Ваш исходник</div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden border border-white/20 shadow-2xl shadow-white/5">
+                        <img src="img/after1.jpg" class="w-full h-auto" alt="После">
+                        <div class="bg-white text-black p-2 text-center text-[10px] uppercase font-bold">AI Результат</div>
+                    </div>
+                </div>
+
+                <div class="space-y-16">
+                <div class="grid grid-cols-2 gap-2 items-center" data-aos="fade-up">
+                    <div class="rounded-xl overflow-hidden border border-white/10">
+                        <img src="img/before2.jpg" class="w-full h-auto opacity-70" alt="До">
+                        <div class="bg-gray-800 p-2 text-center text-[10px] uppercase">Ваш исходник</div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden border border-white/20 shadow-2xl shadow-white/5">
+                        <img src="img/after2.jpg" class="w-full h-auto" alt="После">
+                        <div class="bg-white text-black p-2 text-center text-[10px] uppercase font-bold">AI Результат</div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2 items-center" data-aos="fade-up" data-aos-delay="150">
+                    <div class="rounded-xl overflow-hidden border border-white/10">
+                        <img src="img/before3.jpg" class="w-full h-auto opacity-70" alt="До">
+                        <div class="bg-gray-800 p-2 text-center text-[10px] uppercase">Ваш исходник</div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden border border-white/20 shadow-2xl shadow-white/5">
+                        <img src="img/after3.jpg" class="w-full h-auto" alt="После">
+                        <div class="bg-white text-black p-2 text-center text-[10px] uppercase font-bold">AI Результат</div>
+                    </div>
+                    </div> 
+                    <div class="ai-guarantee-block" data-aos="fade-up" style="text-align: center; margin-bottom: 20px !important;">
+    <p class="ai-guarantee-text" style="line-height: 1.8; letter-spacing: 1px; font-size: 14px; color: #fff; margin: 0;">
+        МЫ ПОЛНОСТЬЮ СОХРАНЯЕМ <b style="color: #fff;">ОРИГИНАЛЬНУЮ ОДЕЖДУ</b>: <br>
+        ТКАНИ, ШВЫ, ЛОГОТИПЫ И КРОЙ. <br>
+        <span style="opacity: 0.7; font-weight: 300;">ВАША ОДЕЖДА В КАДРЕ ВЫГЛЯДИТ НА 100% ИДЕНТИЧНО ОРИГИНАЛУ.</span>
+    </p>
+</div>
+
+              </div>
+            </div>
+        </div>
+    </section> <section class="py-24 px-6 bg-black">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-center uppercase tracking-[4px] text-xl mb-12 font-light text-white" data-aos="fade-up">
+                Главные преимущества такого подхода
+            </h2>
+
+            <div id="prem" class="ai-guarantee-block" data-aos="fade-up">
+                <table class="ai-table">
+                    <tbody>
+                        <tr>
+                            <td
+                    <td class="accent-cell">Экономия</td>
+                    <td class="benefit-cell"><b>Снижение затрат в 5-10 раз</b>. Полный отказ от аренды студий, гонораров моделям и фотографам. Отсутсвие организационной суеты.</td>
+                </tr>
+                <tr>
+                    <td class="accent-cell">Скорость</td>
+                    <td class="benefit-cell">Готовый контент за <b>несколько дней</b>. Моментальная публикация новых коллекций на площадки.</td>
+                </tr>
+                <tr>
+                    <td class="accent-cell">Локации</td>
+                    <td class="benefit-cell">Ваша одежда позиционируется в <b>в любом стиле и в любой точке мира</b>. От элитных апартаментов до природных ландшафтов.</td>
+                </tr>
+                <tr>
+                    <td class="accent-cell">Качество</td> 
+                    <td class="benefit-cell">Гарантированная <b>сохранность каждой детали</b>: швы, логотипы и фактура ткани остаются полностью оригинальными.</td>
+                </tr>
+                <tr>
+                    <td class="accent-cell">Гибкость</td>
+                    <td class="benefit-cell">Смена <b>лиц и типажей моделей</b> под конкретную целевую аудиторию вашего продукта. Способность к любым задачам.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+    
+    <section class="py-24 px-6 bg-black">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-2xl font-bold mb-16 tracking-tighter uppercase italic" data-aos="fade-up">Как мы работаем</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-16 text-sm">
+                <div class="border-t border-white/40 pt-6" data-aos="fade-right">
+                    <span class="block mb-4 text-gray-500 font-bold uppercase tracking-widest text-[10px]">01 / Исходник</span>
+                    <p class="text-gray-400 font-light italic leading-relaxed">
+                        Вы присылаете фото вашего товара, сделанное даже на обычный телефон. Главное — четкий контур изделия.
+                    </p>
+                </div>
+                <div class="border-t border-white/40 pt-6" data-aos="fade-right" data-aos-delay="100">
+                    <span class="block mb-4 text-gray-500 font-bold uppercase tracking-widest text-[10px]">02 / Генерация</span>
+                    <p class="text-gray-400 font-light italic leading-relaxed">
+                        Мы вместе подбираем освещение, модель и локацию, которые идеально подчеркивают стиль и задачи вашего бренда.
+                    </p>
+                </div>
+                <div class="border-t border-white/40 pt-6">
+                    <span class="block mb-4 text-gray-500 font-bold uppercase tracking-widest text-[10px]">03 / Финал</span>
+                    <p class="text-gray-400 font-light italic leading-relaxed">
+                        Теперь задача поставлена — мы создаем результат. По завершении работы вы получаете серию контента, готового к публикации.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="py-12 border-y border-white/5 overflow-hidden bg-black" mb-16 data-aos="fade-in">
+        <div class="flex whitespace-nowrap animate-marquee italic font-light text-gray-500 text-sm uppercase tracking-[0.5em]">
+            <span>&nbsp; AI PRODUCTION • DIGITAL MODELS • NO STUDIO • FAST DELIVERY • PREMIUM QUALITY • AI PRODUCTION • DIGITAL MODELS • NO STUDIO • FAST DELIVERY • PREMIUM QUALITY &nbsp;</span>
+        </div>
+    </div>
+    
+    <section id="pricing" class="py-24 px-6 border-t border-white/5 bg-black">
+        <div class="max-w-7xl mx-auto text-center mb-16">
+            <h2 class="text-4xl font-bold mb-4 italic uppercase tracking-tighter" data-aos="fade-up">Стоимость производства</h2>
+            <p class="text-gray-400 font-light">Клиенты увидят именно то, что им нужно для покупки</p>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="p-8 rounded-3xl glass border border-white/5 flex flex-col justify-between hover:border-white/20 transition group" data-aos="fade-up">
+                <div>
+                    <h3 class="text-xl font-bold mb-2 uppercase tracking-widest text-gray-500">Basic</h3>
+                    <p class="text-gray-500 mb-6 text-xs leading-relaxed">Оптимально для одной позиции товара</p>
+                    <div class="text-3xl font-bold mb-8 italic">3 900 ₽</div>
+                    <ul class="text-left space-y-3 mb-8 text-gray-400 text-xs">
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> 6 финальных кадров</li>
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> 1 любая локация на выбор</li>
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> Профессиональные AI-системы и цифровая доработка</li>
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> Безлимитные правки</li>
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> Срок: 1 рабочий день</li>
+                    </ul>
+                </div>
+                <a href="https://t.me/visuals_ai" class="w-full py-3 border border-white/10 rounded-xl text-xs font-bold hover:bg-white hover:text-black transition uppercase tracking-widest text-center">Попробовать</a>
+            </div>
+
+           <div class="p-8 rounded-3xl glass border border-white/10 flex flex-col justify-between hover:border-white/30 transition" data-aos="fade-up">
+                <div>
+                    <h3 class="text-xl font-bold mb-2 uppercase tracking-widest">Optimal</h3>
+                    <p class="text-gray-500 mb-6 text-xs leading-relaxed">Идеально для оформления небольшой коллекции или нескольких товаров</p>
+                    <div class="text-3xl font-bold mb-8 italic">9 400 ₽</div>
+                    <ul class="text-left space-y-3 mb-8 text-gray-400 text-xs">
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> 18 финальных кадров</li>
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> 3 любых локации на выбор</li>
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> Формат для любых площадок. Безлимитные правки</li>
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> AI-генерация с финальной ручной доводкой</li>
+                        <li class="flex items-center"><span class="mr-2 text-white">→</span> Срок: до 3 рабочих дней</li>
+                    </ul>
+                </div>
+                <a href="https://t.me/visuals_ai" class="w-full py-3 bg-white/10 rounded-xl text-xs font-bold hover:bg-white hover:text-black transition uppercase tracking-widest text-center">Заказать пак</a>
+            </div>
+
+            <div class="p-8 rounded-3xl border-2 border-white flex flex-col justify-between relative bg-white/5" data-aos="fade-up" data-aos-delay="100">
+                <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-black text-[9px] font-bold px-4 py-1 uppercase tracking-widest rounded-full shadow-xl">Pro Choice</div>
+                <div>
+                    <h3 class="text-xl font-bold mb-2 uppercase tracking-widest">Catalog</h3>
+                    <p class="text-gray-400 mb-6 text-xs leading-relaxed">​Для брендов с широким ассортиментом</p>
+                    <div class="text-3xl font-bold mb-8 italic">17 900 ₽</div>
+                    <ul class="text-left space-y-3 mb-8 text-gray-300 text-xs font-light">
+                        <li class="flex items-center"><span class="mr-2 text-white">●</span>Полное обновление визуального контента вашего бренда.</li>
+                         <li class="flex items-center"><span class="mr-2 text-white">●</span>Адаптация под любые требования</li>
+                         <li class="flex items-center"><span class="mr-2 text-white">●</span>Проработка всей товарной матрицы</li>
+                          <li class="flex items-center"><span class="mr-2 text-white">●</span> Приоритетная поддержка</li>
+                          <li class="flex items-center"><span class="mr-2 text-white">●</span>Безлимитные правки</li>
+                                     <li class="flex items-center"><span class="mr-2 text-white">●</span> Срок: 5-7 рабочих дней</li>
+                    </ul>
+                </div>
+                <a href="https://t.me/visuals_ai" class="w-full py-4 bg-white text-black rounded-xl text-xs font-bold hover:bg-gray-200 transition uppercase tracking-widest text-center">Обновить каталог</a>
+            </div>
+        </div>
+        <div class="mt-24 text-center border-t border-white/5 pt-16">
+  <h4 class="text-[12px] uppercase tracking-[0.5em] text-white/80 font-bold mb-6">Custom Solutions</h4>
+  
+  <p class="max-w-3xl mx-auto text-lg text-white/50 leading-relaxed font-light tracking-wide">
+    Если ваш проект требует нестандартных задач или выходит за рамки пакета  — вместе разработаем решение, нацеленное именно на ваши задачи. 
+    <span class="text-white/80">Стоимость в данном случае рассчитывается персонально.</span>
+  </p>
+
+  <a href="https://t.me/visuals_ai" class="inline-block mt-10 text-[10px] uppercase tracking-[0.4em] text-white border-b border-white/20 pb-2 hover:border-white transition-all">
+    Обсудить ваш проект в Telegram →
+  </a>
+</div>
+    </section>
+
+    <section id="faq" class="py-24 px-6 bg-black border-t border-white/5">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 italic uppercase tracking-tighter text-center">Часто задаваемые вопросы</h2>
+            
+            <div class="space-y-6">
+                <div class="border border-white/10 rounded-xl p-6 bg-white/[0.02]" data-aos="fade-up">
+                    <h3 class="text-white font-medium mb-2">Насколько точно AI передает детали товара?</h3>
+                    <p class="text-gray-400 text-sm font-light">Мы используем обученные модели: ваш логотип, текстура ткани и фурнитура остаются оригинальными. AI создает только эстетичное окружение и профессиональную подачу.</p>
+                </div>
+
+                <div class="border border-white/10 rounded-xl p-6 bg-white/[0.02]" data-aos="fade-up">
+                    <h3 class="text-white font-medium mb-2">Можно ли внести правки?</h3>
+                    <p class="text-gray-400 text-sm font-light">Да, в каждый пакет включены безлимитные правки, за которые не нужно доплачивать. Мы можем изменить образец сколько угодно раз, пока не будет идеала.</p>
+                </div>
+
+                <div class="border border-white/10 rounded-xl p-6 bg-white/[0.02]" data-aos="fade-up">
+                    <h3 class="text-white font-medium mb-2">Нужно ли отправлять товар физически?</h3>
+                    <p class="text-gray-400 text-sm font-light">Нет. Для работы достаточно качественных фотографий вашего товара или его скана.</p>
+                </div>
+
+                <div class="border border-white/10 rounded-xl p-6 bg-white/[0.02]" data-aos="fade-up">
+                    <h3 class="text-white font-medium mb-2">Как именно создается контент?</h3>
+                    <p class="text-gray-400 text-sm font-light">Мы используем гибридный метод: профессиональные AI-системы, обученные нами, создают фотореалистичную детализацию, локации, свет и модели, а затем переносят вашу одежду на цифрового персонажа. А ручная доработка даёт безупречную точность вашего продукта — от геометрии до текстур ткани. Каждое изображение создаётся с полного нуля искусственным интеллектом.</p>
+                </div>
+
+                <div class="border border-white/10 rounded-xl p-6 bg-white/[0.02]" data-aos="fade-up">
+                    <h3 class="text-white font-medium mb-2">Почему AI, а не классическая съёмка?</h3>
+                    <p class="text-gray-400 text-sm font-light">Это значительно дешевле и быстрее классической фотосъёмки. Мы исключаем расходы на аренду студий, гонорары моделям и ожидание результата неделями. При этом качество картинки конкурирует с профессиональной камерой, сохраняя полную детализацию и оригинальность вашего продукта. И это далеко не единственное преимущество.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 px-6 text-center bg-black">
+    <div class="max-w-3xl mx-auto">
+        <h2 class="text-lg md:text-xl font-light text-gray-300 leading-relaxed italic" data-aos="fade-in">
+            «Мы одними из первых заменили суету и сложность реальных съемок на возможности AI. Наша задача — чтобы ваш клиент видел только качество продукта, а не сложность процесса».
+        </h2>
+    </div>
+</section>
+    <footer class="py-12 border-t border-white/5 text-center text-gray-600 text-xs uppercase tracking-widest" data-aos="fade-up">
+        &copy; 2025 Ваше Агентство. Официальный партнер вашего роста.
+    </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 450, // Скорость появления (1000мс = 1 сек)
+    offset: 30,    // Анимация начнется, когда блок покажется на 30px из-за края экрана
+    once: true,      // Анимация проиграется только один раз (при первом скролле)
+    easing: 'ease-out-quad'
+  });
+</script>
+</body>
+</html>
