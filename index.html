@@ -29,7 +29,6 @@
         .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
         .accent-gradient { background: linear-gradient(90deg, #fff 0%, #666 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         
-        /* Анимация бегущей строки */
         @keyframes marquee {
             0% { transform: translateX(0); }
             100% { transform: translateX(-50%); }
@@ -39,7 +38,6 @@
             animation: marquee 20s linear infinite;
         }
 
-    /* Блок с рамкой — центрируем и расширяем на ПК */
     .ai-guarantee-block {
         border: 2px solid #ffffff !important;
         padding: 40px !important;
@@ -50,7 +48,6 @@
         box-sizing: border-box !important;
     }
 
-    /* Таблица — заставляем её быть таблицей на ПК */
     .ai-table { 
         width: 100% !important; 
         border-collapse: collapse !important; 
@@ -68,7 +65,6 @@
     .accent-cell { width: 30% !important; font-weight: 700 !important; text-transform: uppercase; color: #fff !important; font-size: 13px !important; }
     .benefit-cell { width: 70% !important; color: #ccc !important; font-weight: 300 !important; line-height: 1.6 !important; }
 
-    /* МОБИЛКА: превращаем в список только на маленьких экранах */
     @media (max-width: 768px) {
         .ai-guarantee-block { padding: 20px !important; width: 95% !important; }
         .ai-table tr { display: block !important; margin-bottom: 25px !important; }
@@ -101,7 +97,7 @@
                 <span class="accent-gradient">Премиальные съемки</span> <br> без моделей и студий
             </h1>
             <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed" data-aos="fade-up" data-aos-delay="100">
-                Переносим ваш бренд в интерьеры мирового уровня. Снижаем расходы на контент в 10 раз, сохраняя 100% реализма.
+             Снижаем расходы на контент в 10 раз, сохраняя 100% реализма. Без компромиссов в качестве.
             </p>
             <div class="flex flex-col md:flex-row items-center justify-center gap-4" data-aos="fade-up" data-aos-delay="200">
                 <a href="#portfolio" class="w-full md:w-auto px-8 py-4 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition">Смотреть работы</a>
@@ -187,9 +183,9 @@
 
                 <div class="group" data-aos="fade-up">
                     <div class="aspect-[4/5] overflow-hidden rounded-2xl glass mb-4">
-                        <img src="img/loft.jpg" class="w-full h-full object-cover transition duration-700">
+                        <img src="img/Street.jpg" class="w-full h-full object-cover transition duration-700">
                     </div>
-                    <p class="text-sm font-medium italic">Лофт</p>
+                    <p class="text-sm font-medium italic">Стритвир</p>
                 </div>
 
                 <div class="group" data-aos="fade-up">
@@ -277,7 +273,18 @@
                         <img src="img/after6.jpg" class="w-full h-auto" alt="После">
                         <div class="bg-white text-black p-2 text-center text-[10px] uppercase font-bold">AI Результат</div>
                     </div>
-                    </div> 
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 items-center" data-aos="fade-up" data-aos-delay="150">
+                    <div class="rounded-xl overflow-hidden border border-white/10">
+                        <img src="img/before7.jpg" class="w-full h-auto opacity-70" alt="До">
+                        <div class="bg-gray-800 p-2 text-center text-[10px] uppercase">Ваш исходник</div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden border border-white/20 shadow-2xl shadow-white/5">
+                        <img src="img/after7.jpg" class="w-full h-auto" alt="После">
+                        <div class="bg-white text-black p-2 text-center text-[10px] uppercase font-bold">AI Результат</div>
+                    </div>
+                    </div>
+
                     <div class="ai-guarantee-block" data-aos="fade-up" style="text-align: center; margin-bottom: 20px !important;">
     <p class="ai-guarantee-text" style="line-height: 1.8; letter-spacing: 1px; font-size: 14px; color: #fff; margin: 0;">
         МЫ ПОЛНОСТЬЮ СОХРАНЯЕМ <b style="color: #fff;">ОРИГИНАЛЬНУЮ ОДЕЖДУ</b>: <br>
@@ -301,7 +308,7 @@
                         <tr>
                             <td
                     <td class="accent-cell">Экономия</td>
-                    <td class="benefit-cell"><b>Снижение затрат в 5-10 раз</b>. Полный отказ от аренды студий, гонораров моделям и фотографам. Отсутсвие организационной суеты.</td>
+                    <td class="benefit-cell"><b>Снижение затрат в 5-10 раз</b>. Полный отказ от аренды студий, гонораров моделям и фотографам. Ноль суеты.</td>
                 </tr>
                 <tr>
                     <td class="accent-cell">Скорость</td>
@@ -309,7 +316,7 @@
                 </tr>
                 <tr>
                     <td class="accent-cell">Локации</td>
-                    <td class="benefit-cell">Ваша одежда позиционируется в <b>в любом стиле и в любой точке мира</b>. От элитных апартаментов до природных ландшафтов.</td>
+                    <td class="benefit-cell">Абсолютная свобода локаций. Любой интерьер. Любой континент. Любая эстетика.</td>
                 </tr>
                 <tr>
                     <td class="accent-cell">Качество</td> 
@@ -317,7 +324,7 @@
                 </tr>
                 <tr>
                     <td class="accent-cell">Гибкость</td>
-                    <td class="benefit-cell">Смена <b>лиц и типажей моделей</b> под конкретную целевую аудиторию вашего продукта. Способность к любым задачам.</td>
+                    <td class="benefit-cell">Смена <b>лиц и типажей моделей</b> под конкретную целевую аудиторию вашего продукта. Никаких рамок.</td>
                 </tr>
             </tbody>
         </table>
@@ -337,7 +344,7 @@
                 <div class="border-t border-white/40 pt-6" data-aos="fade-right" data-aos-delay="100">
                     <span class="block mb-4 text-gray-500 font-bold uppercase tracking-widest text-[10px]">02 / Генерация</span>
                     <p class="text-gray-400 font-light italic leading-relaxed">
-                        Мы вместе подбираем освещение, модель и локацию, которые идеально подчеркивают стиль и задачи вашего бренда.
+                        Мы вместе подбираем освещение, модель и локацию, которые чётко подчеркивают стиль и задачи вашего бренда.
                     </p>
                 </div>
                 <div class="border-t border-white/40 pt-6">
@@ -456,6 +463,12 @@
                     <h3 class="text-white font-medium mb-2">Почему AI, а не классическая съёмка?</h3>
                     <p class="text-gray-400 text-sm font-light">Это значительно дешевле и быстрее классической фотосъёмки. Мы исключаем расходы на аренду студий, гонорары моделям и ожидание результата неделями. При этом качество картинки конкурирует с профессиональной камерой, сохраняя полную детализацию и оригинальность вашего продукта. И это далеко не единственное преимущество.</p>
                 </div>
+
+                <div class="border border-white/10 rounded-xl p-6 bg-white/[0.02]" data-aos="fade-up">
+                    <h3 class="text-white font-medium mb-2">Почему я должен выбрать именно вас?</h3>
+                    <p class="text-gray-400 text-sm font-light">Вы совершенно не обязаны. Если вашей компании привычнее работать по классической схеме - неделями искать моделей, координировать команду и арендовать студии , то это нормальный, рабочий путь.
+Мы  предлагаем альтернативу для тех, кто считает время и маржу и кому не нужна лишняя головная боль. Вы присылаете  снимки вещей, а через несколько дней забираете готовые кадры, которые визуально ничем не отличаются от стандартной съёмки. Это просто вопрос приоритетов.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -463,22 +476,41 @@
     <section class="py-32 px-6 text-center bg-black">
     <div class="max-w-3xl mx-auto">
         <h2 class="text-lg md:text-xl font-light text-gray-300 leading-relaxed italic" data-aos="fade-in">
-            «Мы одними из первых заменили суету и сложность реальных съемок на возможности AI. Наша задача — чтобы ваш клиент видел только качество продукта, а не сложность процесса».
+            «Мы одними из первых заменили суету и сложность реальных съёмок на возможности AI. Наша задача — чтобы ваш клиент видел только качество продукта, а не сложность процесса».
         </h2>
     </div>
 </section>
-    <footer class="py-12 border-t border-white/5 text-center text-gray-600 text-xs uppercase tracking-widest" data-aos="fade-up">
-        &copy; 2025 Ваше Агентство. Официальный партнер вашего роста.
-    </footer>
+    <footer class="py-12 border-t border-white/5 flex flex-col items-center justify-center gap-6" data-aos="fade-up">
+    <div class="text-white text-xs uppercase tracking-widest text-center">
+        &copy; 2026 AI.Production. Все права защищены
+    </div>
+    
+    <div class="flex flex-col items-center gap-1.5 text-center text-xs tracking-wide font-light text-white/60">
+        <span>Новоженов Олег Александрович</span>
+        
+        <span class="flex items-center gap-1.5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3.5 h-3.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
+            </svg>
+            ИНН: 600301566773
+        </span>
+        
+        <a href="mailto:info@ai-visuals.ru" class="mt-1 flex items-center gap-1.5 transition-colors duration-300 hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3.5 h-3.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+            info@ai-visuals.ru
+        </a>
+    </div>
+</footer>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
-    duration: 450, // Скорость появления (1000мс = 1 сек)
-    offset: 30,    // Анимация начнется, когда блок покажется на 30px из-за края экрана
-    once: true,      // Анимация проиграется только один раз (при первом скролле)
+    duration: 450, 
+    offset: 30, 
+    once: true, 
     easing: 'ease-out-quad'
   });
 </script>
 </body>
 </html>
-
